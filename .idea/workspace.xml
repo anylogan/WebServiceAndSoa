@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d697759a-ba1c-4879-8270-764f6f83a406" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="scfchapter1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1TMp7NdDxXNf252Gg92v0f1ALHa" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="O:\2019-2020-1\web与soa2019Autumn\scfchapter1\subscriptions\src\main\resources\templates" />
+      <recent name="O:\2019-2020-1\web与soa2019Autumn\scfchapter1\subscriptions\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SubscriptionsApplication">
+    <configuration name="CreatnoticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="creatnotice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.creatnotice.CreatnoticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSubscriptionsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message-subscriptions" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.messagesubscriptions.MessageSubscriptionsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="service-hi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicehi.ServiceHiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="subscriptions" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.subscriptions.SubscriptionsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ServiceHiApplication" />
+      <item itemvalue="Spring Boot.MessageSubscriptionsApplication" />
+      <item itemvalue="Spring Boot.SubscriptionsApplication" />
+      <item itemvalue="Spring Boot.CreatnoticeApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d697759a-ba1c-4879-8270-764f6f83a406" name="Default Changelist" comment="" />
+      <created>1573279650128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573279650128</updated>
+      <workItem from="1573279653714" duration="4164000" />
+      <workItem from="1573284209969" duration="2529000" />
+      <workItem from="1573288847549" duration="290000" />
+      <workItem from="1573301273305" duration="4788000" />
+      <workItem from="1573452105421" duration="10238000" />
+      <workItem from="1573549027285" duration="615000" />
+      <workItem from="1573716154770" duration="6403000" />
+      <workItem from="1573791660132" duration="21000" />
+      <workItem from="1573975878886" duration="1563000" />
+      <workItem from="1573978953955" duration="5739000" />
+      <workItem from="1573994890222" duration="4178000" />
+      <workItem from="1574007964234" duration="817000" />
+      <workItem from="1574059692102" duration="3712000" />
+      <workItem from="1574063489030" duration="16265000" />
+      <workItem from="1574128960236" duration="1594000" />
+      <workItem from="1574131295581" duration="1808000" />
+      <workItem from="1574159187268" duration="3087000" />
+      <workItem from="1574162301173" duration="223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

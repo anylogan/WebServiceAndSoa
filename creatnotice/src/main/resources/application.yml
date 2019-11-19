@@ -1,0 +1,11 @@
+server:
+  port: 8128
+
+spring:
+  application:
+    name: creatnotice
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

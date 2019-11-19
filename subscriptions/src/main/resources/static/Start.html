@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>消息订阅</title>
+</head>
+<script src="jquery-3.3.1.min.js">
+</script>
+<!--<script>-->
+<!--    $(document).ready(function () {-->
+<!--        //console.log('1');-->
+<!--        alert(1);-->
+<!--    })-->
+<!--</script>-->
+<script >
+    function update(){
+        // alert("kaishizhixing ")
+        var d = {};
+        var  myselect=document.getElementById("channel");
+        var index=myselect.selectedIndex ;
+        d.channel=myselect.options[index].text;
+        // alert(JSON.stringify(d))
+        $.ajax({
+            url: "update",
+            data: JSON.stringify(d),
+            dataType:'text',
+            //type、contentType必填,指明传参方式
+            type: "POST",
+            contentType: "application/json;charset=utf-8",
+            success: function(response){
+                //前端调用成功后，可以处理后端传回的json格式数据。
+                if(response.success){
+                    alert(response.message);
+                }
+            },
+            error:function (arg1) {
+                console.log(arg1)
+            }
+
+        });
+    }
+</script>
+
+
+<form role="form">
+    <div class="form-group">
+        <label >订阅列表</label>
+        <select class="form-control" id="channel">
+            <option>科技</option>
+            <option>娱乐</option>
+            <option>时尚</option>
+            <option>体育</option>
+            <option>音乐</option>
+        </select>
+    </div>
+    <input type="submit" onclick="update()" value="Submit" />
+</form>
+<!-- ajax 请求 -->
+<!--<form method="POST">-->
+<!--    <p>name: <input type="text" name="username"></p>-->
+<!--    <p>password: <input type="password" name="password"></p>-->
+<!--    <div id="jqbtn">提交</div>-->
+<!--</form>-->
+<!--<script>-->
+<!--    $('#jqbtn').click(function () {-->
+<!--        $.ajax({-->
+<!--            url: 'http://localhost:8848/update',-->
+<!--            type: 'POST',-->
+<!--            data: JSON.stringify(params),-->
+<!--            contentType: "application/json", // 默认以formdata形式发送给后台-->
+<!--            dataType: "json",-->
+<!--            success: function (res) {-->
+<!--                console.log(res)-->
+<!--            }-->
+<!--        })-->
+<!--    })-->
+
+<!--// </script>-->
+</body>
+</html>
